@@ -1,4 +1,4 @@
-package test2.extobject;
+package com.advantest.chapter2.synchronizedBlockLockAll.src.test2.extobject;
 
 public class MyObject {
 	synchronized public void speedPrintString() {

@@ -1,8 +1,8 @@
-package test;
+package com.advantest.chapter2.t8.src.test;
 
-import mytask.Task;
-import mythread.MyThread1;
-import mythread.MyThread2;
+import com.advantest.chapter2.t8.src.mytask.Task;
+import com.advantest.chapter2.t8.src.mythread.MyThread1;
+import com.advantest.chapter2.t8.src.mythread.MyThread2;
 
 public class Run {
 
@@ -12,7 +12,7 @@ public class Run {
 		MyThread1 thread1 = new MyThread1(task);
 		thread1.start();
 
-//		Thread.sleep(100);
+		Thread.sleep(100);
 
 		MyThread2 thread2 = new MyThread2(task);
 		thread2.start();

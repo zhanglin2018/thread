@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter2.synTwoLock.src.extthread;
+import com.advantest.chapter2.synTwoLock.src.service.Service;
 
-import service.Service;
 
 public class ThreadC extends Thread {
 

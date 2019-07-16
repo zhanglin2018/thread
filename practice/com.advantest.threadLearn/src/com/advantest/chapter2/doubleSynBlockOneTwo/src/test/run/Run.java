@@ -1,8 +1,8 @@
-package test.run;
+package com.advantest.chapter2.doubleSynBlockOneTwo.src.test.run;
 
-import service.ObjectService;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import com.advantest.chapter2.doubleSynBlockOneTwo.src.extthread.ThreadA;
+import com.advantest.chapter2.doubleSynBlockOneTwo.src.extthread.ThreadB;
+import com.advantest.chapter2.doubleSynBlockOneTwo.src.service.ObjectService;
 
 public class Run {
 
@@ -11,12 +11,12 @@ public class Run {
 
 		ThreadA a = new ThreadA(service);
 		a.setName("a");
+		a.start();
 		
 
 		ThreadB b = new ThreadB(service);
 		b.setName("b");
 		b.start();
-		a.start();
 	}
 
 }

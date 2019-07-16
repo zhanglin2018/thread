@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter2.syn_Out_asyn.src.extthread;
 
-import mylist.MyList;
+import com.advantest.chapter2.syn_Out_asyn.src.mylist.MyList;
 
 public class MyThreadA extends Thread {
 

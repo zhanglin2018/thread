@@ -1,4 +1,4 @@
-package service;
+package com.advantest.chapter2.synTwoLock.src.service;
 
 public class Service {
 

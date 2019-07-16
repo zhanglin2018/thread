@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter2.synMoreObjectStaticOneLock.src.extthread;
+import com.advantest.chapter2.synMoreObjectStaticOneLock.src.service.Service;
 
-import service.Service;
 
 public class ThreadB extends Thread {
 	private Service service;

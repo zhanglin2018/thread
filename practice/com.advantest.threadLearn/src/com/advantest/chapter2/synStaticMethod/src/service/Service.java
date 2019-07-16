@@ -1,4 +1,4 @@
-package service;
+package com.advantest.chapter2.synStaticMethod.src.service;
 
 public class Service {
 

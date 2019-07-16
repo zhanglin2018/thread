@@ -1,8 +1,8 @@
-package test;
+package com.advantest.chapter2.StringAndSyn2.src.test;
 
-import service.Service;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import com.advantest.chapter2.StringAndSyn2.src.extthread.ThreadA;
+import com.advantest.chapter2.StringAndSyn2.src.extthread.ThreadB;
+import com.advantest.chapter2.StringAndSyn2.src.service.Service;
 
 public class Run {
 

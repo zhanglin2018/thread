@@ -1,10 +1,9 @@
-package test;
+package com.advantest.chapter2.t5.src.test;
 
-import mytask.Task;
-import mythread.MyThread1;
-import mythread.MyThread2;
-
-import commonutils.CommonUtils;
+import com.advantest.chapter2.t5.src.commonutils.CommonUtils;
+import com.advantest.chapter2.t5.src.mytask.Task;
+import com.advantest.chapter2.t5.src.mythread.MyThread1;
+import com.advantest.chapter2.t5.src.mythread.MyThread2;
 
 public class Run {
 

@@ -1,6 +1,6 @@
-package service;
+package com.advantest.chapter2.t9.src.service;
 
-import mylist.MyOneList;
+import com.advantest.chapter2.t9.src.mylist.MyOneList;
 
 public class MyService {
 

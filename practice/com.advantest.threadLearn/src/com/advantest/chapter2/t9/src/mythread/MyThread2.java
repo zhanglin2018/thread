@@ -1,7 +1,7 @@
-package mythread;
+package com.advantest.chapter2.t9.src.mythread;
 
-import service.MyService;
-import mylist.MyOneList;
+import com.advantest.chapter2.t9.src.mylist.MyOneList;
+import com.advantest.chapter2.t9.src.service.MyService;
 
 public class MyThread2 extends Thread {
 

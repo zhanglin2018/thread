@@ -1,9 +1,9 @@
-package test3.run;
+package com.advantest.chapter2.synchronizedBlockLockAll.src.test3.run;
 
-import test2.extobject.MyObject;
-import test2.extthread.ThreadA;
-import test2.extthread.ThreadB;
-import test2.service.Service;
+import com.advantest.chapter2.synchronizedBlockLockAll.src.test3.extobject.MyObject;
+import com.advantest.chapter2.synchronizedBlockLockAll.src.test3.extthread.ThreadA;
+import com.advantest.chapter2.synchronizedBlockLockAll.src.test3.extthread.ThreadB;
+import com.advantest.chapter2.synchronizedBlockLockAll.src.test3.service.Service;
 
 public class Run {
 

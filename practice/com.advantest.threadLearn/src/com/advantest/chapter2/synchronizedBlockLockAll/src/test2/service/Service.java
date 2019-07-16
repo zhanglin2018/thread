@@ -1,6 +1,6 @@
-package test2.service;
+package com.advantest.chapter2.synchronizedBlockLockAll.src.test2.service;
 
-import test2.extobject.MyObject;
+import com.advantest.chapter2.synchronizedBlockLockAll.src.test2.extobject.MyObject;
 
 public class Service {
 

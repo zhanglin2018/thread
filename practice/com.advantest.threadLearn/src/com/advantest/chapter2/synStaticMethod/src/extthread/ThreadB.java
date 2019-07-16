@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter2.synStaticMethod.src.extthread;
 
-import service.Service;
+import com.advantest.chapter2.synStaticMethod.src.service.Service;
 
 public class ThreadB extends Thread {
 	@Override

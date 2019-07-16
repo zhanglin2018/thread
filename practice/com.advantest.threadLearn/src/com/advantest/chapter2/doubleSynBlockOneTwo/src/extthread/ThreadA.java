@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter2.doubleSynBlockOneTwo.src.extthread;
 
-import service.ObjectService;
+import com.advantest.chapter2.doubleSynBlockOneTwo.src.service.ObjectService;
 
 public class ThreadA extends Thread {
 

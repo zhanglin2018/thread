@@ -1,4 +1,4 @@
-package mylist;
+package com.advantest.chapter2.syn_Out_asyn.src.mylist;
 
 import java.util.ArrayList;
 import java.util.List;

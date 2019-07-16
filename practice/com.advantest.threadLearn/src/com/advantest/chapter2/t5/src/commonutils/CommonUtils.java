@@ -1,4 +1,4 @@
-package commonutils;
+package com.advantest.chapter2.t5.src.commonutils;
 
 public class CommonUtils {
 

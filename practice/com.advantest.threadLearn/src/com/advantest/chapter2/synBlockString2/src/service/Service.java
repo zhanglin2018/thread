@@ -1,4 +1,4 @@
-package service;
+package com.advantest.chapter2.synBlockString2.src.service;
 
 public class Service {
 

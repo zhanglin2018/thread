@@ -1,7 +1,7 @@
-package test3.extthread;
+package com.advantest.chapter2.synchronizedBlockLockAll.src.test3.extthread;
 
-import test2.extobject.MyObject;
-import test2.service.Service;
+import com.advantest.chapter2.synchronizedBlockLockAll.src.test3.extobject.MyObject;
+import com.advantest.chapter2.synchronizedBlockLockAll.src.test3.service.Service;
 
 public class ThreadA extends Thread {
 

@@ -1,4 +1,4 @@
-package service;
+package com.advantest.chapter2.doubleSynBlockOneTwo.src.service;
 
 public class ObjectService {
 

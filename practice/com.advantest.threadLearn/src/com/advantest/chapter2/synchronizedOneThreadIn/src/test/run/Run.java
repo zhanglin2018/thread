@@ -1,8 +1,8 @@
-package test.run;
+package com.advantest.chapter2.synchronizedOneThreadIn.src.test.run;
 
-import service.ObjectService;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import com.advantest.chapter2.synchronizedOneThreadIn.src.extthread.ThreadA;
+import com.advantest.chapter2.synchronizedOneThreadIn.src.extthread.ThreadB;
+import com.advantest.chapter2.synchronizedOneThreadIn.src.service.ObjectService;
 
 public class Run {
 

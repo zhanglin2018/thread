@@ -1,4 +1,4 @@
-package service;
+package com.advantest.chapter2.StringAndSyn.service;
 
 public class Service {
 	public static void print(String stringParam) {

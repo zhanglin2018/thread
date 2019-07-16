@@ -1,8 +1,8 @@
-package test;
+package com.advantest.chapter2.t9.src.test;
 
-import mylist.MyOneList;
-import mythread.MyThread1;
-import mythread.MyThread2;
+import com.advantest.chapter2.t9.src.mylist.MyOneList;
+import com.advantest.chapter2.t9.src.mythread.MyThread1;
+import com.advantest.chapter2.t9.src.mythread.MyThread2;
 
 public class Run {
 

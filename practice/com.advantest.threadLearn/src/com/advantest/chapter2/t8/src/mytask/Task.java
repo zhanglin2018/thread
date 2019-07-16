@@ -1,4 +1,4 @@
-package mytask;
+package com.advantest.chapter2.t8.src.mytask;
 
 public class Task {
 

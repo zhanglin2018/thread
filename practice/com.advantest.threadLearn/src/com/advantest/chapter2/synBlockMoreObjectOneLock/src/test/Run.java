@@ -1,8 +1,7 @@
-package test;
-
-import service.Service;
-import extthread.ThreadA;
-import extthread.ThreadB;
+package com.advantest.chapter2.synBlockMoreObjectOneLock.src.test;
+import com.advantest.chapter2.synBlockMoreObjectOneLock.src.extthread.ThreadA;
+import com.advantest.chapter2.synBlockMoreObjectOneLock.src.extthread.ThreadB;
+import com.advantest.chapter2.synBlockMoreObjectOneLock.src.service.Service;
 
 public class Run {
 

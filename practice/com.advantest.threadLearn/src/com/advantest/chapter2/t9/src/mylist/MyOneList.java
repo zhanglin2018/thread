@@ -1,4 +1,4 @@
-package mylist;
+package com.advantest.chapter2.t9.src.mylist;
 
 import java.util.ArrayList;
 import java.util.List;

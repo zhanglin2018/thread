@@ -1,8 +1,8 @@
-package test;
+package com.advantest.chapter2.syn_Out_asyn.src.test;
 
-import mylist.MyList;
-import extthread.MyThreadA;
-import extthread.MyThreadB;
+import com.advantest.chapter2.syn_Out_asyn.src.extthread.MyThreadA;
+import com.advantest.chapter2.syn_Out_asyn.src.extthread.MyThreadB;
+import com.advantest.chapter2.syn_Out_asyn.src.mylist.MyList;
 
 public class Test {
 

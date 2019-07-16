@@ -1,6 +1,6 @@
-package mythread;
+package com.advantest.chapter2.t8.src.mythread;
 
-import mytask.Task;
+import com.advantest.chapter2.t8.src.mytask.Task;
 
 public class MyThread2 extends Thread {
 

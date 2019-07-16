@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter2.twoStop.src.extthread;
 
-import service.Service;
+import com.advantest.chapter2.twoStop.src.service.Service;
 
 public class ThreadB extends Thread {
 

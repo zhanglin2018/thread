@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter2.StringAndSyn2.src.extthread;
 
-import service.Service;
+import com.advantest.chapter2.StringAndSyn2.src.service.Service;
 
 public class ThreadA extends Thread {
 	private Service service;
@@ -12,7 +12,7 @@ public class ThreadA extends Thread {
 
 	@Override
 	public void run() {
-		service.print("AA");
-//		service.print(new Object());
+//		service.print("AA");
+		service.print(new Object());
 	}
 }

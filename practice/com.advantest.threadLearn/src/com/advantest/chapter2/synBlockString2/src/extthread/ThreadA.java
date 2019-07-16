@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter2.synBlockString2.src.extthread;
 
-import service.Service;
+import com.advantest.chapter2.synBlockString2.src.service.Service;
 
 public class ThreadA extends Thread {
 	private Service service;
