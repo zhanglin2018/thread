@@ -1,6 +1,6 @@
 package com.advantest.chapter1.t13.test;
 
-import com.advantest.chapter1.t13_1.exthread.MyThread;
+import com.advantest.chapter1.t13.exthread.MyThread;
 
 public class Run {
 
@@ -8,7 +8,7 @@ public class Run {
 		try {
 			MyThread thread = new MyThread();
 			thread.start();
-			Thread.sleep(1);
+			Thread.sleep(10);
 			thread.interrupt();
 		} catch (InterruptedException e) {
 			System.out.println("main catch");

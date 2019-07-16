@@ -8,13 +8,13 @@ public class Run {
 		try {
 			MyThread thread = new MyThread();
 			thread.start();
-			Thread.sleep(200);
+			Thread.sleep(2000);
 			thread.interrupt();
 		} catch (InterruptedException e) {
 			System.out.println("main catch");
 			e.printStackTrace();
 		}
-		System.out.println("end!");
+		System.out.println("main end!");
 	}
 
 }

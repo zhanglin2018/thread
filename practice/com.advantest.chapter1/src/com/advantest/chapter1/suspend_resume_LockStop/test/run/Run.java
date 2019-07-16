@@ -1,6 +1,6 @@
 package com.advantest.chapter1.suspend_resume_LockStop.test.run;
 
-import com.advantest.chapter1.daemonThread.testpackage.MyThread;
+import com.advantest.chapter1.suspend_resume_LockStop.mythread.MyThread;
 
 public class Run {
 

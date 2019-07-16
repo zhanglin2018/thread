@@ -3,12 +3,12 @@ package com.advantest.chapter1.t6.mythread;
 public class MyThread extends Thread {
 
 	public MyThread() {
-		System.out.println("构造方法的打印：" + Thread.currentThread().getName());
+		System.out.println("constructor: " + Thread.currentThread().getName());
 	}
 
 	@Override
 	public void run() {
-		System.out.println("run方法的打印：" + Thread.currentThread().getName());
+		System.out.println("run: " + Thread.currentThread().getName());
 	}
 
 }

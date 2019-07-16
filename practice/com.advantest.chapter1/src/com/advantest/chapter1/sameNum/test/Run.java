@@ -1,6 +1,6 @@
 package com.advantest.chapter1.sameNum.test;
 
-import com.advantest.chapter1.randomThread.mythread.MyThread;
+import com.advantest.chapter1.sameNum.extthread.MyThread;
 
 public class Run {
 

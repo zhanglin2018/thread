@@ -8,7 +8,7 @@ public class Run {
 		Runnable runnable=new MyRunnable();
 		Thread thread=new Thread(runnable);
 		thread.start();
-		System.out.println("ÔËĞĞ½áÊø!");
+		System.out.println("running end");
 	}
 
 }

@@ -1,6 +1,6 @@
 package com.advantest.chapter1.useStopMethodThreadTest.test.run;
 
-import com.advantest.chapter1.runMethodUseStopMethod.testpackage.MyThread;
+import com.advantest.chapter1.useStopMethodThreadTest.testpackage.MyThread;
 
 public class Run {
 

@@ -10,7 +10,7 @@ public class Run {
 			MyThread thread = new MyThread(object);
 			thread.start();
 			Thread.sleep(500);
-			thread.stop();
+			thread.interrupt();
 			System.out.println(object.getUsername() + " "
 					+ object.getPassword());
 		} catch (InterruptedException e) {

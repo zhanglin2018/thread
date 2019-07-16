@@ -1,6 +1,6 @@
 package com.advantest.chapter1.suspend_resume_deal_lock.test.run;
 
-import com.advantest.chapter1.stopThrowLock.testpackage.SynchronizedObject;
+import com.advantest.chapter1.suspend_resume_deal_lock.testpackage.SynchronizedObject;
 
 public class Run {
 
@@ -11,7 +11,7 @@ public class Run {
 			Thread thread1 = new Thread() {
 				@Override
 				public void run() {
-					object.toString();
+					object.printString();
 				}
 			};
 
@@ -23,14 +23,14 @@ public class Run {
 			Thread thread2 = new Thread() {
 				@Override
 				public void run() {
-					System.out
-							.println("thread2启动了，但进入不了printString()方法！只打印1个begin");
-					System.out
-							.println("因为printString()方法被a线程锁定并且永远的suspend暂停了！");
-					object.toString();
+					System.out.println("The thread2 started");
+					System.out.println("start to print content");
+					object.printString();
 				}
 			};
 			thread2.start();
+			
+//			thread1.resume();
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

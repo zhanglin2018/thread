@@ -14,8 +14,8 @@ public class MyThread extends Thread {
 		super.run();
 		while (count > 0) {
 			count--;
-			System.out.println("”… " + this.currentThread().getName()
-					+ " º∆À„£¨count=" + count);
+			System.out.println(" " + this.currentThread().getName()
+					+ " , count=" + count);
 		}
 	}
 }

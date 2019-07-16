@@ -1,10 +1,10 @@
 package com.advantest.chapter1.t4.test;
 
-import com.advantest.chapter1.t14.exthread.MyThread;
+import com.advantest.chapter1.t4.mythread.MyThread;
 
 public class Run {
 	public static void main(String[] args) {
-		MyThread mythread=new MyThread();
+		MyThread mythread = new MyThread();
 
 		Thread a=new Thread(mythread,"A");
 		Thread b=new Thread(mythread,"B");

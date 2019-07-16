@@ -1,6 +1,6 @@
 package com.advantest.chapter1.t4_threadsafe.controller;
 
-//±¾ÀàÄ£Äâ³ÉÒ»¸öServlet×é¼ş
+//ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Servletï¿½ï¿½ï¿½
 public class LoginServlet {
 
 	private static String usernameRef;
