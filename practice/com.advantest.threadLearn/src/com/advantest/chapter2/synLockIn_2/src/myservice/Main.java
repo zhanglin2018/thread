@@ -1,4 +1,4 @@
-package myservice;
+package com.advantest.chapter2.synLockIn_2.src.myservice;
 
 public class Main {
 

@@ -1,11 +1,9 @@
-package com.advantest.chapter2.throwExceptionNoLock.src.extthread;
+package extthread;
 
-import com.advantest.chapter2.throwExceptionNoLock.src.service.Service;
+import service.Service;
 
 public class ThreadA extends Thread {
-
 	private Service service;
-
 	public ThreadA(Service service) {
 		super();
 		this.service = service;
@@ -13,7 +11,6 @@ public class ThreadA extends Thread {
 
 	@Override
 	public void run() {
-		service.testMethod();
+		service.print("AA");
 	}
-
 }

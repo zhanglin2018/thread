@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter2.synNotExtends.src.extthread;
 
-import service.Sub;
+import com.advantest.chapter2.synNotExtends.src.service.Sub;
 
 public class MyThreadB extends Thread {
 

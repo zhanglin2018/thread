@@ -1,8 +1,8 @@
-package controller;
+package com.advantest.chapter2.throwExceptionNoLock.src.controller;
 
-import service.Service;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import com.advantest.chapter2.throwExceptionNoLock.src.extthread.ThreadA;
+import com.advantest.chapter2.throwExceptionNoLock.src.extthread.ThreadB;
+import com.advantest.chapter2.throwExceptionNoLock.src.service.Service;
 
 public class Test {
 

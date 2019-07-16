@@ -1,6 +1,6 @@
-package test;
+package com.advantest.chapter2.synLockIn_1.src.test;
 
-import extthread.MyThread;
+import com.advantest.chapter2.synLockIn_1.src.extthread.MyThread;
 
 public class Run {
 	public static void main(String[] args) {

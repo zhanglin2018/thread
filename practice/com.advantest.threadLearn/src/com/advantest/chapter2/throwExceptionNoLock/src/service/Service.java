@@ -1,4 +1,4 @@
-package service;
+package com.advantest.chapter2.throwExceptionNoLock.src.service;
 
 public class Service {
 	synchronized public void testMethod() {

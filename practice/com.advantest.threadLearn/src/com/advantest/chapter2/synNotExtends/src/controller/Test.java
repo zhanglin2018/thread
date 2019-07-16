@@ -1,8 +1,8 @@
-package controller;
+package com.advantest.chapter2.synNotExtends.src.controller;
 
-import service.Sub;
-import extthread.MyThreadA;
-import extthread.MyThreadB;
+import com.advantest.chapter2.synNotExtends.src.extthread.MyThreadA;
+import com.advantest.chapter2.synNotExtends.src.extthread.MyThreadB;
+import com.advantest.chapter2.synNotExtends.src.service.Sub;
 
 public class Test {
 
