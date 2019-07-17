@@ -1,4 +1,4 @@
-package service;
+package com.advantest.chapter3.notifyOne.src.service;
 
 public class Service {
 

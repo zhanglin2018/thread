@@ -1,8 +1,8 @@
-package test;
+package com.advantest.chapter3.ThreadLocalTest.src.test;
 
-import tools.Tools;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import com.advantest.chapter3.ThreadLocalTest.src.extthread.ThreadA;
+import com.advantest.chapter3.ThreadLocalTest.src.extthread.ThreadB;
+import com.advantest.chapter3.ThreadLocalTest.src.tools.Tools;
 
 public class Run {
 

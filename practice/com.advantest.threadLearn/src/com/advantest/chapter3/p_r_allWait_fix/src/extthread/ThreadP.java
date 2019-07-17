@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.p_r_allWait_fix.src.extthread;
 
-import entity.P;
+import com.advantest.chapter3.p_r_allWait_fix.src.entity.P;
 
 public class ThreadP extends Thread {
 

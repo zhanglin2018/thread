@@ -1,6 +1,6 @@
-package service;
+package com.advantest.chapter3.stack_4.src.service;
 
-import entity.MyStack;
+import com.advantest.chapter3.stack_4.src.entity.MyStack;
 
 public class C {
 

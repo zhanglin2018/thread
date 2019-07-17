@@ -1,8 +1,8 @@
-package test;
+package com.advantest.chapter3.TwoThreadTransData.src.test;
+import com.advantest.chapter3.TwoThreadTransData.src.extthread.ThreadA;
+import com.advantest.chapter3.TwoThreadTransData.src.extthread.ThreadB;
+import com.advantest.chapter3.TwoThreadTransData.src.mylist.MyList;
 
-import mylist.MyList;
-import extthread.ThreadA;
-import extthread.ThreadB;
 
 public class Test {
 

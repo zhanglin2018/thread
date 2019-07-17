@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.wait_notify_size5.src.extthread;
 
-import extlist.MyList;
+import com.advantest.chapter3.wait_notify_size5.src.extlist.MyList;
 
 public class ThreadA extends Thread {
 

@@ -1,10 +1,10 @@
-package test.run;
+package com.advantest.chapter3.stack_2_new_final.src.test.run;
 
-import service.C;
-import service.P;
-import entity.MyStack;
-import extthread.C_Thread;
-import extthread.P_Thread;
+import com.advantest.chapter3.stack_2_new_final.src.entity.MyStack;
+import com.advantest.chapter3.stack_2_new_final.src.extthread.C_Thread;
+import com.advantest.chapter3.stack_2_new_final.src.extthread.P_Thread;
+import com.advantest.chapter3.stack_2_new_final.src.service.C;
+import com.advantest.chapter3.stack_2_new_final.src.service.P;
 
 public class Run {
 	public static void main(String[] args) throws InterruptedException {

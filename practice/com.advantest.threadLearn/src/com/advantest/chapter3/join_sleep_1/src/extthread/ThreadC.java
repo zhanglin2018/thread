@@ -1,4 +1,4 @@
-package extthread;
+package com.advantest.chapter3.join_sleep_1.src.extthread;
 
 public class ThreadC extends Thread {
 

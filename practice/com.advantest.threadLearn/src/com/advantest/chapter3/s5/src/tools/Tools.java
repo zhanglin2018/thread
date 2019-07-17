@@ -1,4 +1,4 @@
-package tools;
+package com.advantest.chapter3.s5.src.tools;
 
 import java.util.Date;
 

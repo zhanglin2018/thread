@@ -1,14 +1,14 @@
-package test;
+package com.advantest.chapter3.InheritableThreadLocal1.src.test;
 
-import tools.Tools;
-import extthread.ThreadA;
+import com.advantest.chapter3.InheritableThreadLocal1.src.extthread.ThreadA;
+import com.advantest.chapter3.InheritableThreadLocal1.src.tools.Tools;
 
 public class Run {
 
 	public static void main(String[] args) {
 		try {
 			for (int i = 0; i < 10; i++) {
-				System.out.println("       在Main线程中取值=" + Tools.tl.get());
+				System.out.println("       锟斤拷Main锟竭筹拷锟斤拷取值=" + Tools.tl.get());
 				Thread.sleep(100);
 			}
 			Thread.sleep(5000);

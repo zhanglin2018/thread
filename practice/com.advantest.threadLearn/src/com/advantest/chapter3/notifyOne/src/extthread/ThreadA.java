@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.notifyOne.src.extthread;
 
-import service.Service;
+import com.advantest.chapter3.notifyOne.src.service.Service;
 
 public class ThreadA extends Thread {
 	private Object lock;

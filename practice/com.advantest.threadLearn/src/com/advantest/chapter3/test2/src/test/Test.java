@@ -1,7 +1,7 @@
-package test;
+package com.advantest.chapter3.test2.src.test;
 
-import extthread.MyThread1;
-import extthread.MyThread2;
+import com.advantest.chapter3.test2.src.extthread.MyThread1;
+import com.advantest.chapter3.test2.src.extthread.MyThread2;
 
 public class Test {
 	public static void main(String[] args) {

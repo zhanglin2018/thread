@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.TwoThreadTransData.src.extthread;
+import com.advantest.chapter3.TwoThreadTransData.src.mylist.MyList;
 
-import mylist.MyList;
 
 public class ThreadB extends Thread {
 
@@ -16,7 +16,7 @@ public class ThreadB extends Thread {
 		try {
 			while (true) {
 				if (list.size() == 5) {
-					System.out.println("==5了，线程b要退出了！");
+					System.out.println("size is equal to 5, break");
 					throw new InterruptedException();
 				}
 				Thread.sleep(10);

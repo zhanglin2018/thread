@@ -1,8 +1,9 @@
-package extthread;
+package com.advantest.chapter3.pipeInputOutput.src.extthread;
 
 import java.io.PipedOutputStream;
 
-import service.WriteData;
+import com.advantest.chapter3.pipeInputOutput.src.service.WriteData;
+
 
 public class ThreadWrite extends Thread {
 

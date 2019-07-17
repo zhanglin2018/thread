@@ -1,4 +1,4 @@
-package extthread;
+package com.advantest.chapter3.joinLong.src.extthread;
 
 public class MyThread extends Thread {
 

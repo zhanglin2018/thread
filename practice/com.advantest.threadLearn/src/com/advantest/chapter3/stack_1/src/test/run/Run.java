@@ -1,10 +1,10 @@
-package test.run;
+package com.advantest.chapter3.stack_1.src.test.run;
 
-import service.P;
-import service.C;
-import entity.MyStack;
-import extthread.P_Thread;
-import extthread.C_Thread;
+import com.advantest.chapter3.stack_1.src.entity.MyStack;
+import com.advantest.chapter3.stack_1.src.extthread.C_Thread;
+import com.advantest.chapter3.stack_1.src.extthread.P_Thread;
+import com.advantest.chapter3.stack_1.src.service.C;
+import com.advantest.chapter3.stack_1.src.service.P;
 
 public class Run {
 	public static void main(String[] args) {

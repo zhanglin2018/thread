@@ -1,7 +1,7 @@
-package test.run;
+package com.advantest.chapter3.joinException.src.test.run;
 
-import extthread.ThreadB;
-import extthread.ThreadC;
+import com.advantest.chapter3.joinException.src.extthread.ThreadB;
+import com.advantest.chapter3.joinException.src.extthread.ThreadC;
 
 public class Run {
 

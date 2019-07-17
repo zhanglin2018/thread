@@ -1,7 +1,8 @@
-package extthread;
+package com.advantest.chapter3.s5.src.extthread;
 
 import java.util.Date;
-import tools.Tools;
+
+import com.advantest.chapter3.s5.src.tools.Tools;
 
 public class ThreadA extends Thread {
 

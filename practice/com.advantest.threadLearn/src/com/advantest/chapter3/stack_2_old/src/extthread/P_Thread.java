@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.stack_2_old.src.extthread;
 
-import service.P;
+import com.advantest.chapter3.stack_2_old.src.service.P;
 
 public class P_Thread extends Thread {
 

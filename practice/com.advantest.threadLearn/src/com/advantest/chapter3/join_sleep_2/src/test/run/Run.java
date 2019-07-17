@@ -1,8 +1,8 @@
-package test.run;
+package com.advantest.chapter3.join_sleep_2.src.test.run;
 
-import extthread.ThreadA;
-import extthread.ThreadB;
-import extthread.ThreadC;
+import com.advantest.chapter3.join_sleep_2.src.extthread.ThreadA;
+import com.advantest.chapter3.join_sleep_2.src.extthread.ThreadB;
+import com.advantest.chapter3.join_sleep_2.src.extthread.ThreadC;
 
 public class Run {
 

@@ -1,8 +1,8 @@
-package extthread;
+package com.advantest.chapter3.pipeReaderWriter.src.extthread;
 
 import java.io.PipedReader;
 
-import service.ReadData;
+import com.advantest.chapter3.pipeReaderWriter.src.service.ReadData;
 
 public class ThreadRead extends Thread {
 

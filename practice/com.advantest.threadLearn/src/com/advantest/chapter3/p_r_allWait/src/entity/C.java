@@ -1,4 +1,4 @@
-package entity;
+package com.advantest.chapter3.p_r_allWait.src.entity;
 
 //消费者
 public class C {

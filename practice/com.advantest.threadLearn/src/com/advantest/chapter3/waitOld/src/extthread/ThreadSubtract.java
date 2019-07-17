@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.waitOld.src.extthread;
 
-import entity.Subtract;
+import com.advantest.chapter3.waitOld.src.entity.Subtract;
 
 public class ThreadSubtract extends Thread {
 

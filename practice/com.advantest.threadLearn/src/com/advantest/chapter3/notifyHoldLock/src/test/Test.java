@@ -1,8 +1,8 @@
-package test;
+package com.advantest.chapter3.notifyHoldLock.src.test;
 
-import extthread.NotifyThread;
-import extthread.ThreadA;
-import extthread.synNotifyMethodThread;
+import com.advantest.chapter3.notifyHoldLock.src.extthread.NotifyThread;
+import com.advantest.chapter3.notifyHoldLock.src.extthread.ThreadA;
+import com.advantest.chapter3.notifyHoldLock.src.extthread.synNotifyMethodThread;
 
 public class Test {
 

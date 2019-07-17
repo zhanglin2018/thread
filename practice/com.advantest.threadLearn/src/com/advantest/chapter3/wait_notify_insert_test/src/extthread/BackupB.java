@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.wait_notify_insert_test.src.extthread;
 
-import service.DBTools;
+import com.advantest.chapter3.wait_notify_insert_test.src.service.DBTools;
 
 public class BackupB extends Thread {
 

@@ -1,6 +1,6 @@
-package entity;
+package com.advantest.chapter3.waitOld.src.entity;
 
-//¼õ·¨
+//ï¿½ï¿½ï¿½ï¿½
 public class Subtract {
 
 	private String lock;

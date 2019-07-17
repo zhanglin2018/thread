@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.InheritableThreadLocal2.src.extthread;
 
-import tools.Tools;
+import com.advantest.chapter3.InheritableThreadLocal2.src.tools.Tools;
 
 public class ThreadA extends Thread {
 
@@ -8,7 +8,7 @@ public class ThreadA extends Thread {
 	public void run() {
 		try {
 			for (int i = 0; i < 10; i++) {
-				System.out.println("在ThreadA线程中取值=" + Tools.tl.get());
+				System.out.println("锟斤拷ThreadA锟竭筹拷锟斤拷取值=" + Tools.tl.get());
 				Thread.sleep(100);
 			}
 		} catch (InterruptedException e) {

@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.ThreadLocalTest.src.extthread;
 
-import tools.Tools;
+import com.advantest.chapter3.ThreadLocalTest.src.tools.Tools;
 
 public class ThreadB extends Thread {
 

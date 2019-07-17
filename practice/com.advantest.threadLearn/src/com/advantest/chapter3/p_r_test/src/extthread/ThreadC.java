@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.p_r_test.src.extthread;
 
-import entity.C;
+import com.advantest.chapter3.p_r_test.src.entity.C;
 
 public class ThreadC extends Thread {
 

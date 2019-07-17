@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.waitOld.src.extthread;
 
-import entity.Add;
+import com.advantest.chapter3.waitOld.src.entity.Add;
 
 public class ThreadAdd extends Thread {
 

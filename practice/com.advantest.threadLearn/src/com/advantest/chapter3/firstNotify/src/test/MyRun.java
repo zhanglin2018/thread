@@ -1,4 +1,4 @@
-package test;
+package com.advantest.chapter3.firstNotify.src.test;
 
 public class MyRun {
 

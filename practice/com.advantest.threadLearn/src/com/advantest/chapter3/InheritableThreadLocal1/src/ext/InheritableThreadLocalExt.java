@@ -1,4 +1,4 @@
-package ext;
+package com.advantest.chapter3.InheritableThreadLocal1.src.ext;
 
 import java.util.Date;
 

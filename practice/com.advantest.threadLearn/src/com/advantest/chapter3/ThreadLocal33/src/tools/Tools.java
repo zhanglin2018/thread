@@ -1,6 +1,6 @@
-package tools;
+package com.advantest.chapter3.ThreadLocal33.src.tools;
 
-import ext.ThreadLocalExt;
+import com.advantest.chapter3.ThreadLocal33.src.ext.ThreadLocalExt;
 
 public class Tools {
 	public static ThreadLocalExt tl = new ThreadLocalExt();

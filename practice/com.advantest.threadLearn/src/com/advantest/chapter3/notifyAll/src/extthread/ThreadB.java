@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.notifyAll.src.extthread;
 
-import service.Service;
+import com.advantest.chapter3.notifyAll.src.service.Service;
 
 public class ThreadB extends Thread {
 	private Object lock;

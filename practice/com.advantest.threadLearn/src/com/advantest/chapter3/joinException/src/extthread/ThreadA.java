@@ -1,4 +1,4 @@
-package extthread;
+package com.advantest.chapter3.joinException.src.extthread;
 
 public class ThreadA extends Thread {
 	@Override

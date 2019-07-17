@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.waitReleaseLock.src.extthread;
 
-import service.Service;
+import com.advantest.chapter3.waitReleaseLock.src.service.Service;
 
 public class ThreadA extends Thread {
 

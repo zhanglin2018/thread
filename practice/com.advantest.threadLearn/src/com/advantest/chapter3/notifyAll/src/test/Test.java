@@ -1,9 +1,9 @@
-package test;
+package com.advantest.chapter3.notifyAll.src.test;
 
-import extthread.NotifyThread;
-import extthread.ThreadA;
-import extthread.ThreadB;
-import extthread.ThreadC;
+import com.advantest.chapter3.notifyAll.src.extthread.NotifyThread;
+import com.advantest.chapter3.notifyAll.src.extthread.ThreadA;
+import com.advantest.chapter3.notifyAll.src.extthread.ThreadB;
+import com.advantest.chapter3.notifyAll.src.extthread.ThreadC;
 
 public class Test {
 

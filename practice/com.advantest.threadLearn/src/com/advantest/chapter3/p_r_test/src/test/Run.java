@@ -1,9 +1,9 @@
-package test;
+package com.advantest.chapter3.p_r_test.src.test;
 
-import entity.P;
-import entity.C;
-import extthread.ThreadP;
-import extthread.ThreadC;
+import com.advantest.chapter3.p_r_test.src.entity.C;
+import com.advantest.chapter3.p_r_test.src.entity.P;
+import com.advantest.chapter3.p_r_test.src.extthread.ThreadC;
+import com.advantest.chapter3.p_r_test.src.extthread.ThreadP;
 
 public class Run {
 

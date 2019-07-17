@@ -1,6 +1,6 @@
-package test;
+package com.advantest.chapter3.joinLong.src.test;
 
-import extthread.MyThread;
+import com.advantest.chapter3.joinLong.src.extthread.MyThread;
 
 public class Test {
 
@@ -9,7 +9,7 @@ public class Test {
 			MyThread threadTest = new MyThread();
 			threadTest.start();
 
-			// threadTest.join(2000);// Ö»µÈ2Ãë
+			// threadTest.join(2000);// Ö»ï¿½ï¿½2ï¿½ï¿½
 			Thread.sleep(2000);
 
 			System.out.println("  end timer=" + System.currentTimeMillis());

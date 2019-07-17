@@ -1,8 +1,8 @@
-package extthread;
+package com.advantest.chapter3.pipeInputOutput.src.extthread;
 
 import java.io.PipedInputStream;
 
-import service.ReadData;
+import com.advantest.chapter3.pipeInputOutput.src.service.ReadData;
 
 public class ThreadRead extends Thread {
 

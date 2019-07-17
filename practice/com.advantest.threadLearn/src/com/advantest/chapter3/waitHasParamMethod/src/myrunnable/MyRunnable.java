@@ -1,4 +1,4 @@
-package myrunnable;
+package com.advantest.chapter3.waitHasParamMethod.src.myrunnable;
 
 public class MyRunnable {
 	static private Object lock = new Object();

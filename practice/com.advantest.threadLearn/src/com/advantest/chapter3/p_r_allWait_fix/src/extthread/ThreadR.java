@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.p_r_allWait_fix.src.extthread;
 
-import entity.C;
+import com.advantest.chapter3.p_r_allWait_fix.src.entity.C;
 
 public class ThreadR extends Thread {
 

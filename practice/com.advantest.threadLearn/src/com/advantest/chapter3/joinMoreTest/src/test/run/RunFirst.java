@@ -1,7 +1,7 @@
-package test.run;
+package com.advantest.chapter3.joinMoreTest.src.test.run;
 
-import extthread.ThreadA;
-import extthread.ThreadB;
+import com.advantest.chapter3.joinMoreTest.src.extthread.ThreadA;
+import com.advantest.chapter3.joinMoreTest.src.extthread.ThreadB;
 
 public class RunFirst {
 

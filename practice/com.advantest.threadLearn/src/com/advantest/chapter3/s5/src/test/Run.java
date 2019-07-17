@@ -1,7 +1,7 @@
-package test;
+package com.advantest.chapter3.s5.src.test;
 
-import extthread.ThreadA;
-import extthread.ThreadB;
+import com.advantest.chapter3.s5.src.extthread.ThreadA;
+import com.advantest.chapter3.s5.src.extthread.ThreadB;
 
 public class Run {
 

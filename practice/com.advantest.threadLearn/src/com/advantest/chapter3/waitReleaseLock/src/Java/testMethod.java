@@ -1,4 +1,4 @@
-package Java;
+package com.advantest.chapter3.waitReleaseLock.src.Java;
 
 import java.util.Iterator;
 

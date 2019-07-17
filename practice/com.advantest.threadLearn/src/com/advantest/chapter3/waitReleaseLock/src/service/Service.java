@@ -1,4 +1,4 @@
-package service;
+package com.advantest.chapter3.waitReleaseLock.src.service;
 
 public class Service {
 

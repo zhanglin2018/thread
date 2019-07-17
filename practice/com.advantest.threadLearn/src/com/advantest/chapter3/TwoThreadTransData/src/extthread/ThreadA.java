@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter3.TwoThreadTransData.src.extthread;
 
-import mylist.MyList;
+import com.advantest.chapter3.TwoThreadTransData.src.mylist.MyList;
 
 public class ThreadA extends Thread {
 
@@ -16,7 +16,7 @@ public class ThreadA extends Thread {
 		try {
 			for (int i = 0; i < 10; i++) {
 				list.add();
-				System.out.println("添加了" + (i + 1) + "个元素");
+				System.out.println("add " + (i + 1) + " element");
 				Thread.sleep(1000);
 			}
 		} catch (InterruptedException e) {

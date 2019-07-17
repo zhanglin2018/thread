@@ -1,4 +1,4 @@
-package service;
+package com.advantest.chapter3.pipeReaderWriter.src.service;
 
 import java.io.IOException;
 import java.io.PipedWriter;

@@ -1,6 +1,6 @@
-package entity;
+package com.advantest.chapter3.waitOld.src.entity;
 
-//¼Ó·¨
+//ï¿½Ó·ï¿½
 public class Add {
 
 	private String lock;

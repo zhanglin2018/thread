@@ -1,14 +1,14 @@
-package test;
+package com.advantest.chapter3.ThreadLocal22.src.test;
 
-import ext.ThreadLocalExt;
+import com.advantest.chapter3.ThreadLocal22.src.ext.ThreadLocalExt;
 
 public class Run {
 	public static ThreadLocalExt tl = new ThreadLocalExt();
 
 	public static void main(String[] args) {
 		if (tl.get() == null) {
-			System.out.println("从未放过值");
-			tl.set("我的值");
+			System.out.println("锟斤拷未锟脚癸拷值");
+			tl.set("锟揭碉拷值");
 		}
 		System.out.println(tl.get());
 		System.out.println(tl.get());

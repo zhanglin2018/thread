@@ -1,4 +1,4 @@
-package extlist;
+package com.advantest.chapter3.wait_notify_size5.src.extlist;
 
 import java.util.ArrayList;
 import java.util.List;

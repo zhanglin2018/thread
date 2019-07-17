@@ -1,6 +1,6 @@
-package test;
+package com.advantest.chapter3.waitInterruptException.src.test;
 
-import extthread.ThreadA;
+import com.advantest.chapter3.waitInterruptException.src.extthread.ThreadA;
 
 public class Test {
 

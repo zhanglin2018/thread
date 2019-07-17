@@ -1,4 +1,4 @@
-package service;
+package com.advantest.chapter3.notifyAll.src.service;
 
 public class Service {
 
@@ -8,7 +8,7 @@ public class Service {
 				System.out.println("begin wait() ThreadName="
 						+ Thread.currentThread().getName());
 				Thread.sleep(1000);
-				lock.wait();
+				lock.wait();	
 				Thread.sleep(1000);
 				System.out.println("  end wait() ThreadName="
 						+ Thread.currentThread().getName());

@@ -1,4 +1,4 @@
-package entity;
+package com.advantest.chapter3.stack_4.src.entity;
 
 import java.util.ArrayList;
 import java.util.List;

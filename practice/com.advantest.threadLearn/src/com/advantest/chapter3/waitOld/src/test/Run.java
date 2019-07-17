@@ -1,9 +1,9 @@
-package test;
+package com.advantest.chapter3.waitOld.src.test;
 
-import entity.Add;
-import entity.Subtract;
-import extthread.ThreadAdd;
-import extthread.ThreadSubtract;
+import com.advantest.chapter3.waitOld.src.entity.Add;
+import com.advantest.chapter3.waitOld.src.entity.Subtract;
+import com.advantest.chapter3.waitOld.src.extthread.ThreadAdd;
+import com.advantest.chapter3.waitOld.src.extthread.ThreadSubtract;
 
 public class Run {
 

@@ -1,4 +1,4 @@
-package extthread;
+package com.advantest.chapter3.notifyAll.src.extthread;
 
 
 public class NotifyThread extends Thread {

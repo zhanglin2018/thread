@@ -1,13 +1,13 @@
-package test;
+package com.advantest.chapter3.pipeReaderWriter.src.test;
 
 import java.io.IOException;
 import java.io.PipedReader;
 import java.io.PipedWriter;
 
-import service.ReadData;
-import service.WriteData;
-import extthread.ThreadRead;
-import extthread.ThreadWrite;
+import com.advantest.chapter3.pipeReaderWriter.src.extthread.ThreadRead;
+import com.advantest.chapter3.pipeReaderWriter.src.extthread.ThreadWrite;
+import com.advantest.chapter3.pipeReaderWriter.src.service.ReadData;
+import com.advantest.chapter3.pipeReaderWriter.src.service.WriteData;
 
 public class Run {
 

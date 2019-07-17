@@ -1,9 +1,9 @@
-package test;
+package com.advantest.chapter3.p_r_allWait_fix.src.test;
 
-import entity.P;
-import entity.C;
-import extthread.ThreadP;
-import extthread.ThreadR;
+import com.advantest.chapter3.p_r_allWait_fix.src.entity.C;
+import com.advantest.chapter3.p_r_allWait_fix.src.entity.P;
+import com.advantest.chapter3.p_r_allWait_fix.src.extthread.ThreadP;
+import com.advantest.chapter3.p_r_allWait_fix.src.extthread.ThreadR;
 
 public class Run {
 
