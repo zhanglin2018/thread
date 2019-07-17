@@ -42,7 +42,7 @@ public class MyRun {
 		Thread a = new Thread(run.runnableA);
 		a.start();
 
-		Thread.sleep(10000);
+		Thread.sleep(100);
 
 		Thread b = new Thread(run.runnableB); 
 		b.start();

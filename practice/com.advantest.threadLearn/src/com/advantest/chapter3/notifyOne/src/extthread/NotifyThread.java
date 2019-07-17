@@ -14,8 +14,8 @@ public class NotifyThread extends Thread {
 		synchronized (lock) {
 			lock.notify();
 			lock.notify();
-//			lock.notify();
-//			lock.notify();
+			lock.notify();
+			lock.notify();
 //			lock.notify();
 //			lock.notify();
 //			lock.notify();

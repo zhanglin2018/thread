@@ -1,6 +1,7 @@
 package com.advantest.chapter3.p_r_test.src.entity;
 
-//������
+//consumer
+
 public class C {
 
 	private String lock;
@@ -16,7 +17,7 @@ public class C {
 				if (ValueObject.value.equals("")) {
 					lock.wait();
 				}
-				System.out.println("get��ֵ��" + ValueObject.value);
+				System.out.println("get: " + ValueObject.value);
 				ValueObject.value = "";
 				lock.notify();
 			}

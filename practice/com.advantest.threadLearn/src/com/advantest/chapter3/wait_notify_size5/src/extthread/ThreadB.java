@@ -18,9 +18,9 @@ public class ThreadB extends Thread {
 					MyList.add();
 					if (MyList.size() == 5) {
 						lock.notify();
-						System.out.println("�ѷ���֪ͨ��");
+						System.out.println("notify");
 					}
-					System.out.println("�����" + (i + 1) + "��Ԫ��!");
+					System.out.println("add " + (i + 1) + " element!");
 					Thread.sleep(1000);
 				}
 			}

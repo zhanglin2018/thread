@@ -1,6 +1,7 @@
 package com.advantest.chapter3.p_r_test.src.entity;
 
-//������
+//producer
+
 public class P {
 
 	private String lock;
@@ -18,7 +19,7 @@ public class P {
 				}
 				String value = System.currentTimeMillis() + "_"
 						+ System.nanoTime();
-				System.out.println("set��ֵ��" + value);
+				System.out.println("set: " + value);
 				ValueObject.value = value;
 				lock.notify();
 			}

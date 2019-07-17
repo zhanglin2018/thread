@@ -21,6 +21,7 @@ public class ThreadA extends Thread {
 					lock.wait();
 					System.out.println("wait end  "
 							+ System.currentTimeMillis());
+					System.out.println(MyList.size());
 				}
 			}
 		} catch (InterruptedException e) {
