@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter2.atomicIntergerNoSafe.src.extthread;
 
-import service.MyService;
+import com.advantest.chapter2.atomicIntergerNoSafe.src.service.MyService;
 
 public class MyThread extends Thread {
 	private MyService mySerivce;

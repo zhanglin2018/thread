@@ -1,6 +1,6 @@
-package test;
+package com.advantest.chapter2.t10.src.test;
 
-import printstring.PrintString;
+import com.advantest.chapter2.t10.src.printstring.PrintString;
 
 public class Run {
 
@@ -8,8 +8,14 @@ public class Run {
 		PrintString printStringService = new PrintString();
 		new Thread(printStringService).start();
 
-		System.out.println("ÎÒÒªÍ£Ö¹Ëü£¡stopThread="
-				+ Thread.currentThread().getName());
+		
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println("stopThread=" + Thread.currentThread().getName());
 		printStringService.setContinuePrint(false);
 	}
 

@@ -1,8 +1,8 @@
-package test.run;
+package com.advantest.chapter2.twoNoStop.src.test.run;
 
-import service.Service;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import com.advantest.chapter2.twoNoStop.src.extthread.ThreadA;
+import com.advantest.chapter2.twoNoStop.src.extthread.ThreadB;
+import com.advantest.chapter2.twoNoStop.src.service.Service;
 
 public class Run {
 

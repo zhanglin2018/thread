@@ -1,8 +1,8 @@
-package extthread;
+package com.advantest.chapter2.t16.src.extthread;
 
 public class RunThread extends Thread {
 
-	 private boolean isRunning = true;
+	volatile private boolean isRunning = true;
 
 	public boolean isRunning() {
 		return isRunning;
@@ -14,7 +14,7 @@ public class RunThread extends Thread {
 
 	@Override
 	public void run() {
-		System.out.println("进入run了");
+		System.out.println("thread run");
 		while (isRunning == true) {
 //			try {
 //				Thread.sleep(1000);
@@ -23,7 +23,7 @@ public class RunThread extends Thread {
 //				e.printStackTrace();
 //			}
 		}
-		System.out.println("线程被停止了！");
+		System.out.println("thead stop");
 	}
 
 }

@@ -1,8 +1,8 @@
-package service;
+package com.advantest.chapter2.synchronizedUpdateNewValue.src.service;
 
 public class Service {
 
-	volatile private boolean  isContinueRun = true;
+	 volatile private boolean  isContinueRun = true;
 
 	 public void runMethod() {
 		String anyString = new String();
@@ -10,10 +10,10 @@ public class Service {
 //			
 		
 		while (isContinueRun == true) {
-//			synchronized (this) {
-//			}
+			synchronized (this) {
+			}
 		}
-		System.out.println("Õ£œ¬¿¥¡À£°");
+		System.out.println("run Method is stoped");
 	}
 
     public void stopMethod() {

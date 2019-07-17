@@ -1,8 +1,8 @@
-package test;
+package com.advantest.chapter2.synchronizedUpdateNewValue.src.test;
+import com.advantest.chapter2.synchronizedUpdateNewValue.src.extthread.ThreadA;
+import com.advantest.chapter2.synchronizedUpdateNewValue.src.extthread.ThreadB;
+import com.advantest.chapter2.synchronizedUpdateNewValue.src.service.Service;
 
-import service.Service;
-import extthread.ThreadA;
-import extthread.ThreadB;
 
 public class Run {
 
@@ -18,7 +18,7 @@ public class Run {
 			ThreadB b = new ThreadB(service);
 			b.start();
 
-			System.out.println("已经发起停止的命令了！");
+			System.out.println("stop command");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -1,6 +1,6 @@
-package test.run;
+package com.advantest.chapter2.volatileTestThread.src.test.run;
 
-import extthread.MyThread;
+import com.advantest.chapter2.volatileTestThread.src.extthread.MyThread;
 
 public class Run {
 	public static void main(String[] args) {

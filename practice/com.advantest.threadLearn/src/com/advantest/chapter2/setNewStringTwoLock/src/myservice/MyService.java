@@ -1,4 +1,4 @@
-package myservice;
+package com.advantest.chapter2.setNewStringTwoLock.src.myservice;
 
 public class MyService {
 	private String lock = "123";

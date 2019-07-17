@@ -1,27 +1,21 @@
-package test.run;
+package com.advantest.chapter2.setNewPropertiesLockOne.src.test.run;
+import com.advantest.chapter2.setNewPropertiesLockOne.src.entity.Userinfo;
+import com.advantest.chapter2.setNewPropertiesLockOne.src.extthread.ThreadA;
+import com.advantest.chapter2.setNewPropertiesLockOne.src.extthread.ThreadB;
+import com.advantest.chapter2.setNewPropertiesLockOne.src.service.Service;
 
-import service.Service;
-import entity.Userinfo;
-import extthread.ThreadA;
-import extthread.ThreadB;
 
 public class Run {
 
 	public static void main(String[] args) {
 
 		try {
-			String string = "123";
-			string = "1234";
-			
-			
 			Service service = new Service();
 			Userinfo userinfo = new Userinfo();
 			
 			userinfo.setUsername("zhanglin");
 			userinfo.setPassword("hanjiaojiao");
 			
-			userinfo.setUsername("zhangwei");
-
 			ThreadA a = new ThreadA(service, userinfo);
 			a.setName("a");
 			a.start();

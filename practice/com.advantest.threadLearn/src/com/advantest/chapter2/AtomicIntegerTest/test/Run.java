@@ -1,6 +1,6 @@
-package test;
+package com.advantest.chapter2.AtomicIntegerTest.test;
 
-import extthread.AddCountThread;
+import com.advantest.chapter2.AtomicIntegerTest.extthread.AddCountThread;
 
 public class Run {
 

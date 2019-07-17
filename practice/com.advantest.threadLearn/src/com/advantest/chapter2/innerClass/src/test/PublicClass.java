@@ -1,4 +1,4 @@
-package test;
+package com.advantest.chapter2.innerClass.src.test;
 
 public class PublicClass {
 

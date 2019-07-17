@@ -1,6 +1,6 @@
-package extthread;
+package com.advantest.chapter2.setNewStringTwoLock.src.extthread;
 
-import myservice.MyService;
+import com.advantest.chapter2.setNewStringTwoLock.src.myservice.MyService;
 
 public class ThreadB extends Thread {
 

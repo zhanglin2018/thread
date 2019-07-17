@@ -1,7 +1,7 @@
-package extthread;
+package com.advantest.chapter2.setNewPropertiesLockOne.src.extthread;
 
-import service.Service;
-import entity.Userinfo;
+import com.advantest.chapter2.setNewPropertiesLockOne.src.entity.Userinfo;
+import com.advantest.chapter2.setNewPropertiesLockOne.src.service.Service;
 
 public class ThreadB extends Thread {
 

@@ -1,6 +1,6 @@
-package test;
+package com.advantest.chapter2.innerClass.src.test;
 
-import test.PublicClass.PrivateClass;
+import com.advantest.chapter2.innerClass.src.test.PublicClass.PrivateClass;
 
 public class Run {
 

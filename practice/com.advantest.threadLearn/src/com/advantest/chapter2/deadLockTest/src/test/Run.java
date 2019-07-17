@@ -1,4 +1,4 @@
-package test;
+package com.advantest.chapter2.deadLockTest.src.test;
 
 public class Run {
 	public static void main(String[] args) {
@@ -15,7 +15,6 @@ public class Run {
 			Thread thread2 = new Thread(t1);
 			thread2.start();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

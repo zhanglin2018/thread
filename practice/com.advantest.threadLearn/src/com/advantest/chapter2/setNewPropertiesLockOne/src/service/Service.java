@@ -1,6 +1,6 @@
-package service;
+package com.advantest.chapter2.setNewPropertiesLockOne.src.service;
 
-import entity.Userinfo;
+import com.advantest.chapter2.setNewPropertiesLockOne.src.entity.Userinfo;
 
 public class Service {
 

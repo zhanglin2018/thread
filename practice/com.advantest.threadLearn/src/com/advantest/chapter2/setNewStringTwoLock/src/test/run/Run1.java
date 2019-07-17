@@ -1,8 +1,8 @@
-package test.run;
+package com.advantest.chapter2.setNewStringTwoLock.src.test.run;
 
-import myservice.MyService;
-import extthread.ThreadA;
-import extthread.ThreadB;
+import com.advantest.chapter2.setNewStringTwoLock.src.extthread.ThreadA;
+import com.advantest.chapter2.setNewStringTwoLock.src.extthread.ThreadB;
+import com.advantest.chapter2.setNewStringTwoLock.src.myservice.MyService;
 
 public class Run1 {
 
@@ -17,7 +17,7 @@ public class Run1 {
 		b.setName("B");
 
 		a.start();
-		Thread.sleep(50);// ¥Ê‘⁄50∫¡√Î
+		Thread.sleep(50);// 
 		b.start();
 	}
 }

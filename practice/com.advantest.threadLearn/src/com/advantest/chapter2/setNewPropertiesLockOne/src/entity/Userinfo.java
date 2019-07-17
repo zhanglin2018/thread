@@ -1,4 +1,4 @@
-package entity;
+package com.advantest.chapter2.setNewPropertiesLockOne.src.entity;
 
 public class Userinfo {
 	private String username;

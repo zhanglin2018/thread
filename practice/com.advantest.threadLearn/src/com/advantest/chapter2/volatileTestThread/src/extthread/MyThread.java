@@ -1,4 +1,4 @@
-package extthread;
+package com.advantest.chapter2.volatileTestThread.src.extthread;
 
 public class MyThread extends Thread {
 	volatile public static int count;

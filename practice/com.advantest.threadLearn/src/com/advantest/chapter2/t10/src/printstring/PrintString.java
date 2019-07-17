@@ -1,4 +1,4 @@
-package printstring;
+package com.advantest.chapter2.t10.src.printstring;
 
 public class PrintString implements Runnable {
 
